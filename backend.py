@@ -2,7 +2,7 @@ import openai
 
 class Chatbot:
     def __init__(self):
-        openai.api_key = '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'
+        openai.api_key = ''
 
     def get_response(self, user_input):
         response = openai.Completion.create(
